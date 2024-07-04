@@ -1,0 +1,30 @@
+.hero {
+    background: url('hero_image.png') no-repeat center center;
+    background-size: cover;
+}
+
+.hero .btn-light {
+    background-color: #06c1be;
+    color: #ffffff;
+    border: none;
+}
+
+.hero .btn-light:hover {
+    background-color: #0bdfdb;
+    color: #000000;
+}
+
+/* Cor personalizada do botão de login */
+.btn-custom {
+    background-color: #06c1be; /* Cor de fundo personalizada */
+    border-color: #06c1be; /* Cor da borda personalizada */
+}
+
+.btn-custom:hover {
+    background-color: #08e3df; /* Cor de fundo ao passar o mouse */
+    border-color: #08e3df; /* Cor da borda ao passar o mouse */
+}
+
+.btn-custom.text-white {
+    color: #ffffff; /* Cor do texto */
+}
